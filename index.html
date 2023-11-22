@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nivel de dificuldade -->
+    <select id="selectDificuldade">
+        <option value="facil">Fácil</option>
+        <option value="medio">Médio</option>
+        <option value="dificil">Difícil</option>
+    </select>
+
+    <!-- //tempo de jogo -->
+    <!-- Botão "Play" para iniciar o cronômetro -->
+    <input type="button" value="Play" id="btnPlay">
+
+    <!-- Botão "Pause" para pausar o cronômetro -->
+    <input type="button" value="Pause" id="btnPause">
+
+    <!-- Botão "Stop" para parar o cronômetro -->
+    <input type="button" value="Stop" id="btnStop">
+
+    <!-- //cronometro -->
+    <h2>Tempo: <span id="timer">01:30</span></h2>
+
+    <!-- Parágrafo onde será exibido o número aleatório -->
+    <h2>Clicar em cima do numero sorteado: <span id="nomeNumeroAleatorio">--</span></h2>
+
+    <!-- //botao de resposta -->
+    <p>PAR</p>
+    <p id="par">0</p>
+    <p>IMPAR</p>
+    <p id="impar">0</p>
+
+    <!-- Exibição das porcentagens -->
+    <p id="percentagemPar">Porcentagem de acertos em números pares: 0%</p>
+    <p id="percentagemImpar">Porcentagem de acertos em números ímpares: 0%</p>
+    
+    <script src="javascript.js"></script>
+</body>
+
+</html>
+
+
